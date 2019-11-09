@@ -128,7 +128,7 @@ class Server {
                 }
                 const dataBase = db.db(mongodb_1.default.dataBaseName);
                 // tslint:disable-next-line:max-line-length
-                const collection = dataBase.collection('journals_plos');
+                const collection = dataBase.collection('journals_plos_heroku');
                 journals = journals.map((itemMap) => {
                     return {
                         title: itemMap['title'],

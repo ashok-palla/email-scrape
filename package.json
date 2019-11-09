@@ -2,7 +2,7 @@
   "name": "email-scrapping",
   "version": "1.0.0",
   "license": "ISC",
-  "main": "index.js",
+  "main": "./build/index.js",
   "description": "",
   "repository": {
     "type": "git",

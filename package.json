@@ -1,0 +1,47 @@
+{
+  "name": "email-scrapping",
+  "version": "1.0.0",
+  "license": "ISC",
+  "main": "index.js",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "tsc": "tsc -w",
+    "server": "nodemon ./build/index.js",
+    "serve": "tsc -w & nodemon ./build/index.js",
+    "start": "node index.js",
+    "ts:watch": "tsc -w"
+  },
+  "dependencies": {
+    "agendash": "^1.0.0",
+    "body-parser": "1.18.3",
+    "cheerio": "^1.0.0-rc.3",
+    "compression": "^1.7.4",
+    "cors": "2.8.4",
+    "crypto": "^1.0.1",
+    "dotenv": "6.0.0",
+    "express": "4.16.3",
+    "helmet": "^3.21.2",
+    "https": "^1.0.0",
+    "moment": "^2.22.2",
+    "mongodb": "^3.1.12",
+    "request": "^2.88.0",
+    "xlsx": "^0.15.1"
+  },
+  "devDependencies": {
+    "@types/agenda": "^2.0.4",
+    "@types/body-parser": "1.17.0",
+    "@types/cheerio": "^0.22.13",
+    "@types/compression": "^1.0.1",
+    "@types/cors": "2.8.4",
+    "@types/express": "4.16.0",
+    "@types/mongodb": "^3.1.19",
+    "@types/node": "8.5.5",
+    "nodemon": "1.17.5",
+    "tslint": "5.10.0",
+    "typescript": "2.9.1"
+  }
+}
